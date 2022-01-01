@@ -47,3 +47,9 @@ heroku create myproject
 heroku config:set DEBUG=True SECRET_KEY=`cat .env | grep SECRET_KEY | cut -d = -f 2` ALLOWED_HOSTS="*"
 git push heroku master
 ```
+
+## Future Features
+- [x] template full installation
+- [ ] bash script to install with one command
+- [ ] venv script to run manage commands easily
+
