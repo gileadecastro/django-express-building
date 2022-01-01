@@ -24,7 +24,7 @@ pip install django
 Now we can pull Django Quickstart Structure to Project 
 
 ```
-django-admin startproject --template https://github.com/gileadecastro/django-express-build/archive/main.zip --name=Procfile,.env myproject .
+django-admin startproject --template https://github.com/gileadecastro/django-express-building/zipball/main --name=Procfile,.env myproject .
 ```
 
 And then, proceed with the installation of quickstart's requirements. 
